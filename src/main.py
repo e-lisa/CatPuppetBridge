@@ -22,6 +22,7 @@ Main loop for Cat Puppet Bridge
 import configparser
 import sys
 import os.path
+from os import getenv
 import threading
 import logging
 import time
@@ -57,8 +58,12 @@ def run_ircpuppet(queues, discord_to_irc_links, puppet_config, config):
     ircbot = IRCPuppet(queues, discord_to_irc_links, puppet_config, config)
     ircbot.start()
 
-def init_config(config_filename='catbridge.ini'):
+def init_config():
     """Init our configs, make sure config file can be found"""
+
+    # Load config file path from env
+    config_filename = getenv('CPB_CONFIG_FILE', 'catbridge.ini')
+
     if os.path.isfile(config_filename):
         config_path = os.getcwd() + '/' + config_filename
     elif os.path.isfile('/etc/' + config_filename):
