@@ -1,4 +1,4 @@
-[![Lint](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/lint.yml/badge.svg)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/lint.yml) [![Dependabot Updates](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/dependabot/dependabot-updates)
+[![Lint](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/lint.yml/badge.svg)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/lint.yml) [![Dependabot Updates](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/dependabot/dependabot-updates)
 
 # Cat Puppet Bridge
 
@@ -23,11 +23,11 @@ A modern bridge from IRC to Discord which uses "puppets" (fake IRC Users control
 
 |Python Version| Test Status|
 |--------------|------------|
-| 3.10 | [![Tests (Python 3.10)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-10.yaml/badge.svg)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-10.yaml)|
-| 3.11 | [![Tests (Python 3.11)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-11.yaml/badge.svg)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-11.yaml)|
-| 3.12 | [![Tests (Python 3.12)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-12.yaml/badge.svg)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-12.yaml)|
-| 3.13 | [![Tests (Python 3.13)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-13.yaml/badge.svg)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-13.yaml)|
-| 3.14 | [![Tests (Python 3.14)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-14.yaml/badge.svg)](https://github.com/hypatia-software-org/CatPuppetBridge/actions/workflows/tests_python3-14.yaml)|
+| 3.10 | [![Tests (Python 3.10)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-10.yaml/badge.svg)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-10.yaml)|
+| 3.11 | [![Tests (Python 3.11)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-11.yaml/badge.svg)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-11.yaml)|
+| 3.12 | [![Tests (Python 3.12)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-12.yaml/badge.svg)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-12.yaml)|
+| 3.13 | [![Tests (Python 3.13)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-13.yaml/badge.svg)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-13.yaml)|
+| 3.14 | [![Tests (Python 3.14)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-14.yaml/badge.svg)](https://github.com/e-lisa/CatPuppetBridge/actions/workflows/tests_python3-14.yaml)|
 
 ### Previous Release Python Compatibility 
 
@@ -46,7 +46,7 @@ A modern bridge from IRC to Discord which uses "puppets" (fake IRC Users control
 ### Install From Source
 
 * Clone the source
-```git clone https://github.com/hypatia-software-org/CatPuppetBridge```
+```git clone https://github.com/e-lisa/CatPuppetBridge```
 * Check out the latest tag, or a release of your choice (eg v1.1.3)
 ```git checkout latest```
 
@@ -87,7 +87,7 @@ For testing we recommend using `irc.server` implementation for testing.
 * Click the bot you created in the previous step
 * Click `OAuth2`
 * Click `Add Redirect`
-* Any URL can be added, if not sure what to use just use our GitHub `https://github.com/hypatia-software-org/CatPuppetBridge`
+* Any URL can be added, if not sure what to use just use our GitHub `https://github.com/e-lisa/CatPuppetBridge`
 * Under `OAuth2 URL Generator` check the `bot` box
 * Under `BOT PERMISSIONS` check:
   * `Send Messages`
@@ -114,7 +114,7 @@ For testing we recommend using `irc.server` implementation for testing.
 
 # Contributing
 
-* Issue Tracker: https://github.com/hypatia-software-org/CatPuppetBridge/issues
+* Issue Tracker: https://github.com/e-lisa/CatPuppetBridge/issues
 * IRC: [OFTC](https://www.oftc.net/) #catpuppetbridge
 
 # License
